@@ -1,7 +1,7 @@
 # 干掉付费墙
-这个库是一些扩展的集合。
+这个库是一些扩展的集合。  
 ## bypass-paywalls
-这个插件十分有用，对绝大多数常见英文媒体都有效。（华尔街日报抽风时可以用下面的油猴脚本，经济学人只需要把javascript禁用就行了）  
+这个插件十分有用，对绝大多数常见英文媒体都有效。（华尔街日报抽风时可以用下面的油猴脚本。经济学人只需禁用javascript，也可按照下面的补充内容屏蔽tinypass.com实现付费墙的屏蔽）。  
 这是原本的repo链接 https://github.com/iamadamdev/bypass-paywalls-chrome  
 我也fork了一下，https://github.com/sherpahu/bypass-paywalls-chrome  
 防止被删，也建议各位fork一下。  
@@ -15,13 +15,13 @@
 
 ## The Wall Street Journal Full Text Articles  
 油猴插件，用来破解华尔街日报的付费墙。目前已经在Greasymonkey上下架了，特此上传备份。  
-bypass-paywalls有时候抽风（华尔街日报可能会禁掉Facebook、Twitter的阅读免费接口），但是这个插件是利用手机版(url中添加/amp)获得文本内容，很稳！
+bypass-paywalls有时候抽风（华尔街日报可能会禁掉Facebook、Twitter的阅读免费接口），但是这个插件是利用手机版(url中添加/amp)获得文本内容，很稳！  
 优点：稳。  
 缺点：没有评论区，看不到白左和红脖子撕逼。  
 
 ## 补充：  
 由于经济学人十分有学究气，用词较难，所以查词插件是十分必要的。前文所述的方法是完全禁用javascript，这样虽然可以屏蔽经济学人的付费墙，但是由于查词插件也是依靠javascript加载的，所以全部屏蔽javascript会导致查词插件无法使用。  
-经探索，经济学人在加载的过程中是先把文章全部加载出来，再利用tinypass.com这个网站来检测是否付费。因此，可以通过屏蔽tinypass.com实现屏蔽付费墙的功能。   
+经探索，经济学人在加载的过程中是先把文章全部加载出来，再利用tinypass.com这个网站来检测是否付费。因此，可以通过屏蔽tinypass.com实现屏蔽付费墙的目的。   
 可以在广告屏蔽插件中加入tinypass.com，将其屏蔽。  
 我使用的是ABP，依次点击设置->高级->我的过滤列表->编辑过滤列表，添加tinypass.com即可。  
 
