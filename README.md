@@ -7,8 +7,7 @@
 防止被删，也建议各位fork一下。  
 这里也上传了一份，侵删。  
 破解原理： https://github.com/iamadamdev/bypass-paywalls-chrome/issues/197  
-> 
-Visit an article on the site you want to bypass the paywall for and copy the article title.
+> Visit an article on the site you want to bypass the paywall for and copy the article title.
 Open up a new incognito window (Ctrl+Shift+N) and paste the article title into Google.
 Click on the same article from the Google search results page. If it loads without a paywall you can submit a request to add the site, otherwise my extension cannot bypass it either.
 
