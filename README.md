@@ -25,9 +25,9 @@ bypass-paywalls有时候抽风（华尔街日报可能会禁掉Facebook、Twitte
 
 ## 补充：  
 由于经济学人十分有学究气，用词较难，所以查词插件是十分必要的。前文所述的方法是完全禁用javascript，这样虽然可以屏蔽经济学人的付费墙，但是由于查词插件也是依靠javascript加载的，所以全部屏蔽javascript会导致查词插件无法使用。  
-~~经探索，经济学人在加载的过程中是先把文章全部加载出来，再利用tinypass.com这个网站来检测是否付费。因此，可以通过屏蔽tinypass.com实现屏蔽付费墙的目的。   
-可以在广告屏蔽插件中加入tinypass.com，将其屏蔽。  
-我使用的是ABP，依次点击设置->高级->我的过滤列表->编辑过滤列表，添加tinypass.com即可。  ~~  
+~~经探索，经济学人在加载的过程中是先把文章全部加载出来，再利用tinypass.com这个网站来检测是否付费。因此，可以通过屏蔽tinypass.com实现屏蔽付费墙的目的。~~ 
+~~可以在广告屏蔽插件中加入tinypass.com，将其屏蔽。  ~~
+~~我使用的是ABP，依次点击设置->高级->我的过滤列表->编辑过滤列表，添加tinypass.com即可。  ~~  
 
 经济学人经过了改版，屏蔽tinypass.com已经失效  
 可以通过屏蔽`https://www.economist.com/_next/static/chunks/styles.3c81a6c17e0143e1e39b.js` 实现屏蔽付费墙的目的。   
